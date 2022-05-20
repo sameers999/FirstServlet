@@ -9,14 +9,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-@WebServlet(
-        description = "Login Servlet Testing",
-        urlPatterns = { "/LoginServlet" },
-        initParams = {
-                @WebInitParam(name = "user", value = "Sameer"),
-                @WebInitParam  (name = "password", value = "Sam999")
-        }
-)
+
 public class LoginServlet extends HttpServlet {
 
     @Override
